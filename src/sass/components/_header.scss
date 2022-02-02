@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    
+}
+
+.header__link {
+    color: $white-text-and-bg;
+}

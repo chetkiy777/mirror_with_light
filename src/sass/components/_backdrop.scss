@@ -1,0 +1,22 @@
+.backdrop {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+
+    &.hidden {
+        display: none;
+    }
+
+    .modal {
+        background-color: $white-text-and-bg;
+        color: #000;
+    }
+
+    .modal__field {
+        margin-top: 10px;
+    }
+}

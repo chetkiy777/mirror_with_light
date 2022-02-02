@@ -1,0 +1,35 @@
+<form action="/" class="form">
+    <div class="form__inputs">
+        <input class="form__input" type="number" name="height">
+        <span class="height-label">(высота)</span>
+
+        <input class="form__input" type="number" name="width">
+        <span class="width-label">(ширина)</span>
+    </div>
+
+    <label class="form__label">
+        <input class="form__checkbox" type="checkbox" name="isAmalgama">
+        Снятие амальгамы
+    </label>
+
+    <p class="form__title">Свечение:</p>
+
+    <div class="form__light-type">
+        <label class="form__label radio-btn">
+            <input type="radio" name="lightType" value="cold">
+            холодный
+        </label>
+
+        <label class="form__label radio-btn">
+            <input type="radio" name="lightType" value="middle" checked>
+            нейтральный
+        </label>
+
+        <label class="form__label radio-btn">
+            <input type="radio" name="lightType" value="hot">
+            тёплый
+        </label>
+    </div>
+
+    <button class="form__btn" type="submit">Расчитать</button>
+</form>

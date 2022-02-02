@@ -1,0 +1,93 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    &__inputs {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    &__input {
+        width: 70px;
+        background-color: transparent;
+        border-bottom: 2px solid $white-text-and-bg;
+        margin-right: 20px;
+        color: $white-text-and-bg;
+
+    }
+
+    &__label {
+        color: $white-text-and-bg;
+    }
+
+    &__checkbox {
+        margin-bottom: 30px;
+        margin-left: 55px;
+        
+    }
+
+    &__light-type {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        color: $white-text-and-bg;
+        margin-left: 35px;
+        margin-bottom: 10px;
+    }
+
+    &__btn {
+        display: block;
+        height: 25px;
+        width: 70px;
+
+        border: 2px solid $accent;
+        border-radius: 5px;
+        background-color: transparent;
+        text-align: center;
+
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 1.2;
+        color: $accent;
+
+        margin-top: 26px;
+        margin-bottom: 160px;
+        align-self: center;
+    }
+}
+
+.height-label,
+.width-label {
+    position: absolute;
+    color: $white-text-and-bg;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.height-label {
+    top: 20px;
+    left: 72px;
+}
+
+.width-label {
+    top: 20px;
+    right: 100px;
+}
+
+.radio-btn {
+    font-size: 12px;
+
+    & + & {
+        margin-left: 5px;
+    }
+}
+
